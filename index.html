@@ -1,0 +1,343 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alma PerÃº Experience</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+.hero-slides{position:absolute;inset:0}
+.hero-slide{position:absolute;top:0;left:0;right:0;bottom:0;background-size:cover;background-position:center;opacity:0;transition:opacity 1.4s ease-in-out}
+.hero-slide.active{opacity:1}
+</style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#nosotros" data-t="nav.about">Nosotros</a></li>
+      <li><a href="#destinos" data-t="nav.dest">Destinos</a></li>
+      <li><a href="#paquetes" data-t="nav.exp">Experiencias</a></li>
+    </ul>
+    <div class="logo">
+      <img id="logo-img" src="Logo.png.png" alt="Alma PerÃº Experience" style="height:54px;width:auto;display:block;margin:0 auto">
+    </div>
+    <ul class="nav-links" style="justify-content:flex-end">
+      <li><a href="#guias" data-t="nav.guides">GuÃ­as</a></li>
+      <li><a href="#resenas" data-t="nav.reviews">ReseÃ±as</a></li>
+      <li><a href="#galeria" data-t="nav.gallery">GalerÃ­a</a></li>
+      <li><a href="#contacto" class="nav-contact" data-t="nav.contact">ContÃ¡ctanos</a></li>
+      <li>
+        <div class="lang-switch">
+          <button class="lang-btn active" onclick="setLang('es')">ES</button>
+          <div class="lang-sep"></div>
+          <button class="lang-btn" onclick="setLang('en')">EN</button>
+        </div>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<div class="hero">
+  <div class="hero-slides">
+    <div class="hero-slide active" style="background-image:url('hero1.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('hero2.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('hero3.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('hero4.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('hero5.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('hero6.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('hero7.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('hero8.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('hero9.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('hero10.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('hero11.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('hero12.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('hero13.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('hero14.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('hero15.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('hero16.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('hero17.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('hero18.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('hero19.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('hero20.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('hero21.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('hero22.jpg')"></div>
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow" data-t="hero.eyebrow">Cusco, PerÃº â€” Viajes privados y sostenibles</div>
+    <h1 data-t="hero.h1">Experiencias autÃ©nticas<br>en el <em>corazÃ³n de los Andes</em></h1>
+    <p class="hero-desc" data-t="hero.desc">DiseÃ±amos viajes que conectan con la naturaleza, la historia y las comunidades vivas del PerÃº. Cada ruta, elegida con propÃ³sito.</p>
+    <div class="hero-links">
+      <a href="#paquetes" class="hero-btn" data-t="hero.btn1">Ver experiencias</a>
+      <a href="#nosotros" class="hero-link" data-t="hero.btn2">Conocer mÃ¡s</a>
+    </div>
+  </div>
+</div>
+
+<section id="nosotros">
+  <div class="container">
+    <div class="nosotros-grid">
+      <div class="nosotros-foto"></div>
+      <div class="nosotros-texto">
+        <span class="eyebrow" data-t="about.eyebrow">Sobre nosotros</span>
+        <h2 data-t="about.h2">Una agencia peruana con raÃ­ces</h2>
+        <p data-t="about.p1">Alma PerÃº Experience es un proyecto fundado por guÃ­as y viajeros convencidos de que el turismo puede ser una herramienta de cambio positivo. Llevamos mÃ¡s de ocho aÃ±os diseÃ±ando experiencias culturales y de ecoturismo en los Andes y la AmazonÃ­a peruana.</p>
+        <p data-t="about.p2">Trabajamos directamente con comunidades campesinas e indÃ­genas, co-diseÃ±ando itinerarios que reflejan su cultura y generan ingresos dignos para sus familias. No somos intermediarios: conocemos personalmente cada ruta, cada alojamiento y cada guÃ­a que recomendamos.</p>
+        <p data-t="about.p3">Personalizamos cada viaje segÃºn tus intereses, tu ritmo y tus valores.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="destinos">
+  <div class="container">
+    <span class="eyebrow" data-t="dest.eyebrow">Destinos</span>
+    <h2 data-t="dest.h2">Lugares que perduran</h2>
+    <p class="intro-text" data-t="dest.intro">Cada destino ha sido elegido por su valor cultural, su riqueza natural y la experiencia que deja en quien lo visita.</p>
+    <div class="dest-grid">
+      <div class="dest-item"><div class="dest-num">01</div><h3 data-t="d1.name">Machu Picchu</h3><p data-t="d1.desc">La ciudadela inca suspendida entre nubes. Patrimonio de la Humanidad y una de las maravillas del mundo moderno.</p><span class="dest-tipo" data-t="d1.tipo">Historia & ecoturismo</span></div>
+      <div class="dest-item"><div class="dest-num">02</div><h3 data-t="d2.name">Madre de Dios</h3><p data-t="d2.desc">El corazÃ³n de la AmazonÃ­a peruana. Biodiversidad incomparable y comunidades con tradiciones ancestrales vivas.</p><span class="dest-tipo" data-t="d2.tipo">Naturaleza & cultura</span></div>
+      <div class="dest-item"><div class="dest-num">03</div><h3 data-t="d3.name">Cusco</h3><p data-t="d3.desc">El ombligo del Imperio Inca. Calles empedradas, templos milenarios y una ciudad que respira historia en cada esquina.</p><span class="dest-tipo" data-t="d3.tipo">Cultural</span></div>
+      <div class="dest-item"><div class="dest-num">04</div><h3 data-t="d4.name">Lago Titicaca</h3><p data-t="d4.desc">El lago navegable mÃ¡s alto del mundo. Las islas flotantes de los Uros y la cultura aymara en plena vigencia.</p><span class="dest-tipo" data-t="d4.tipo">Cultural & paisaje</span></div>
+      <div class="dest-item"><div class="dest-num">05</div><h3 data-t="d5.name">CaÃ±Ã³n del Colca</h3><p data-t="d5.desc">Uno de los caÃ±ones mÃ¡s profundos del planeta. Tierra del cÃ³ndor andino y de comunidades que preservan sus tradiciones.</p><span class="dest-tipo" data-t="d5.tipo">Naturaleza</span></div>
+      <div class="dest-item"><div class="dest-num">06</div><h3 data-t="d6.name">Valle Sagrado</h3><p data-t="d6.desc">Mercados quechuas, ruinas incas y comunidades vivas en uno de los valles mÃ¡s fÃ©rtiles de los Andes peruanos.</p><span class="dest-tipo" data-t="d6.tipo">Comunidades & historia</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="paquetes">
+  <div class="container">
+    <span class="eyebrow" data-t="paq.eyebrow">Experiencias</span>
+    <h2 data-t="paq.h2">Itinerarios diseÃ±ados con cuidado</h2>
+    <div class="paq-grid">
+      <div class="paq-card">
+        <div class="paq-dias" data-t="p1.dias">5 dÃ­as Â· 4 noches</div>
+        <h3 data-t="p1.name">Esencia Andina</h3>
+        <div class="paq-precio">$650 <span data-t="paq.per">/ persona</span></div>
+        <hr class="paq-sep">
+        <ul class="paq-lista">
+          <li data-t="p1.i1">Cusco e Inca Trail</li><li data-t="p1.i2">Machu Picchu</li><li data-t="p1.i3">GuÃ­a bilingÃ¼e certificado</li><li data-t="p1.i4">Alojamiento 3 estrellas</li><li data-t="p1.i5">Desayunos incluidos</li>
+        </ul>
+        <a href="#contacto" class="paq-cta" data-t="paq.consult">Consultar disponibilidad</a>
+      </div>
+      <div class="paq-card featured">
+        <div class="paq-dias" data-t="p2.dias">10 dÃ­as Â· 9 noches â€” El mÃ¡s solicitado</div>
+        <h3 data-t="p2.name">Gran PerÃº</h3>
+        <div class="paq-precio">$1,290 <span data-t="paq.per">/ persona</span></div>
+        <hr class="paq-sep">
+        <ul class="paq-lista">
+          <li data-t="p2.i1">Lima, Cusco, Puno, Arequipa</li><li data-t="p2.i2">Titicaca + CaÃ±Ã³n del Colca</li><li data-t="p2.i3">Machu Picchu</li><li data-t="p2.i4">GuÃ­a especializado</li><li data-t="p2.i5">Alojamiento 4 estrellas</li><li data-t="p2.i6">Media pensiÃ³n incluida</li>
+        </ul>
+        <a href="#contacto" class="paq-cta" data-t="paq.book">Reservar ahora</a>
+      </div>
+      <div class="paq-card">
+        <div class="paq-dias" data-t="p3.dias">6 dÃ­as Â· 5 noches</div>
+        <h3 data-t="p3.name">AmazonÃ­a Viva</h3>
+        <div class="paq-precio">$890 <span data-t="paq.per">/ persona</span></div>
+        <hr class="paq-sep">
+        <ul class="paq-lista">
+          <li data-t="p3.i1">Madre de Dios</li><li data-t="p3.i2">Lodge amazÃ³nico</li><li data-t="p3.i3">Avistamiento de fauna silvestre</li><li data-t="p3.i4">Comunidades nativas</li><li data-t="p3.i5">Todo incluido</li>
+        </ul>
+        <a href="#contacto" class="paq-cta" data-t="paq.consult">Consultar disponibilidad</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="compromisos">
+  <div class="container">
+    <div class="compromisos-inner">
+      <div class="comp-texto">
+        <span class="eyebrow" data-t="comp.eyebrow">Compromisos</span>
+        <h2 data-t="comp.h2">Turismo con propÃ³sito</h2>
+        <p data-t="comp.p1">Creemos que el turismo y la educaciÃ³n son herramientas de cambio positivo. Para que eso sea posible, es necesario trabajar juntos con valores claros: respeto, cuidado y libertad.</p>
+        <p data-t="comp.p2">Trabajamos con familias de comunidades rurales que se han convertido en parte de este proyecto: desde el Valle Sagrado hasta la AmazonÃ­a, pasando por comunidades altoandinas que cuidan sus territorios con orgullo.</p>
+        <p data-t="comp.p3">Parte de nuestra misiÃ³n es evitar el uso de productos desechables en cada recorrido, promover la conservaciÃ³n de los lugares que visitamos y asegurarnos de que nuestra presencia mejore la calidad de vida de quienes viven ahÃ­.</p>
+      </div>
+      <div class="comp-valores">
+        <div class="comp-val"><h4 data-t="cv1.h">Turismo sostenible</h4><p data-t="cv1.p">Minimizamos el impacto ambiental en cada ruta. Priorizamos alojamientos y operadores con prÃ¡cticas responsables.</p></div>
+        <div class="comp-val"><h4 data-t="cv2.h">Comunidades primero</h4><p data-t="cv2.p">Trabajamos directamente con familias locales. El beneficio econÃ³mico del viaje se queda donde nace la experiencia.</p></div>
+        <div class="comp-val"><h4 data-t="cv3.h">GuÃ­as con arraigo</h4><p data-t="cv3.p">Todos nuestros guÃ­as son locales, certificados y bilingÃ¼es. Su conocimiento del territorio es parte esencial del viaje.</p></div>
+        <div class="comp-val"><h4 data-t="cv4.h">Sin residuos, sin huella</h4><p data-t="cv4.p">Promovemos el uso de botellas reutilizables, evitamos plÃ¡sticos y practicamos el principio de dejar cada lugar mejor de como lo encontramos.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="guias">
+  <div class="container">
+    <span class="eyebrow" data-t="guides.eyebrow">GuÃ­as</span>
+    <h2 data-t="guides.h2">Quienes te acompaÃ±an</h2>
+    <p class="intro-text" data-t="guides.intro">Cada guÃ­a es local, certificado y bilingÃ¼e. Su conocimiento del territorio y su pasiÃ³n por compartirlo son parte esencial de cada experiencia.</p>
+    <div class="guias-grid">
+
+      <div class="guia-card">
+        <div class="guia-foto guia-foto-1" style="background-image:url('aldo.jpg')"></div>
+        <div class="guia-info">
+          <h3>Aldo MÃ¡laga</h3>
+          <span class="guia-esp">Cusco Â· Lima Â· Puno Â· Arequipa Â· Madre de Dios</span>
+          <p>GuÃ­a oficial certificado con mÃ¡s de 20 aÃ±os de experiencia en turismo ecolÃ³gico y cultural. Conoce a fondo cada rincÃ³n del PerÃº, desde los Andes hasta la AmazonÃ­a.</p>
+          <div class="guia-datos">
+            <span>+20 aÃ±os de experiencia</span>
+            <span>EspaÃ±ol Â· InglÃ©s</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="guia-card">
+        <div class="guia-foto guia-foto-2"></div>
+        <div class="guia-info">
+          <h3>Nombre GuÃ­a 2</h3>
+          <span class="guia-esp">Especialidad</span>
+          <p>Breve descripciÃ³n del guÃ­a. Origen, aÃ±os de experiencia, formaciÃ³n y Ã¡reas en las que trabaja.</p>
+          <div class="guia-datos">
+            <span>X aÃ±os de experiencia</span>
+            <span>Idiomas</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="guia-card">
+        <div class="guia-foto guia-foto-3"></div>
+        <div class="guia-info">
+          <h3>Nombre GuÃ­a 3</h3>
+          <span class="guia-esp">Especialidad</span>
+          <p>Breve descripciÃ³n del guÃ­a. Origen, aÃ±os de experiencia, formaciÃ³n y Ã¡reas en las que trabaja.</p>
+          <div class="guia-datos">
+            <span>X aÃ±os de experiencia</span>
+            <span>Idiomas</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="guia-card">
+        <div class="guia-foto guia-foto-4"></div>
+        <div class="guia-info">
+          <h3>Nombre GuÃ­a 4</h3>
+          <span class="guia-esp">Especialidad</span>
+          <p>Breve descripciÃ³n del guÃ­a. Origen, aÃ±os de experiencia, formaciÃ³n y Ã¡reas en las que trabaja.</p>
+          <div class="guia-datos">
+            <span>X aÃ±os de experiencia</span>
+            <span>Idiomas</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="guia-card">
+        <div class="guia-foto guia-foto-5"></div>
+        <div class="guia-info">
+          <h3>Nombre GuÃ­a 5</h3>
+          <span class="guia-esp">Especialidad</span>
+          <p>Breve descripciÃ³n del guÃ­a. Origen, aÃ±os de experiencia, formaciÃ³n y Ã¡reas en las que trabaja.</p>
+          <div class="guia-datos">
+            <span>X aÃ±os de experiencia</span>
+            <span>Idiomas</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="guia-card">
+        <div class="guia-foto guia-foto-6"></div>
+        <div class="guia-info">
+          <h3>Nombre GuÃ­a 6</h3>
+          <span class="guia-esp">Especialidad</span>
+          <p>Breve descripciÃ³n del guÃ­a. Origen, aÃ±os de experiencia, formaciÃ³n y Ã¡reas en las que trabaja.</p>
+          <div class="guia-datos">
+            <span>X aÃ±os de experiencia</span>
+            <span>Idiomas</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="resenas">
+  <div class="container">
+    <span class="eyebrow" data-t="rev.eyebrow">ReseÃ±as</span>
+    <h2 data-t="rev.h2">Lo que dicen quienes viajaron con nosotros</h2>
+    <div class="res-grid">
+      <div class="res-card"><div class="res-stars">â˜…â˜…â˜…â˜…â˜…</div><p class="res-texto" data-t="r1.text">"El viaje a Machu Picchu superÃ³ todas mis expectativas. El guÃ­a nos explicÃ³ cada detalle con una pasiÃ³n que contagia. Una experiencia que recomiendo sin dudarlo."</p><div class="res-autor"><strong>MarÃ­a C.</strong> â€” <span data-t="r1.origin">EspaÃ±a, Mayo 2024</span></div></div>
+      <div class="res-card"><div class="res-stars">â˜…â˜…â˜…â˜…â˜…</div><p class="res-texto" data-t="r2.text">"La experiencia en la AmazonÃ­a fue transformadora. Convivir con la comunidad y ver la fauna en su hÃ¡bitat natural es algo que no tiene precio. VolverÃ©."</p><div class="res-autor"><strong>James R.</strong> â€” <span data-t="r2.origin">Estados Unidos, Marzo 2024</span></div></div>
+      <div class="res-card"><div class="res-stars">â˜…â˜…â˜…â˜…â˜…</div><p class="res-texto" data-t="r3.text">"Hicimos el Gran PerÃº en familia. La organizaciÃ³n fue impecable de principio a fin. El Lago Titicaca nos dejÃ³ sin palabras. Un viaje que nos cambiÃ³ como familia."</p><div class="res-autor"><strong>SofÃ­a F.</strong> â€” <span data-t="r3.origin">Argentina, Julio 2024</span></div></div>
+      <div class="res-card"><div class="res-stars">â˜…â˜…â˜…â˜…â˜…</div><p class="res-texto" data-t="r4.text">"Ver el cÃ³ndor volar sobre el Colca fue uno de los momentos mÃ¡s impactantes de mi vida. Todo perfectamente coordinado, sin ningÃºn contratiempo."</p><div class="res-autor"><strong>Lena K.</strong> â€” <span data-t="r4.origin">Alemania, Septiembre 2024</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="galeria">
+  <div class="container">
+    <span class="eyebrow" data-t="gal.eyebrow">GalerÃ­a</span>
+    <h2 data-t="gal.h2">ImÃ¡genes del PerÃº</h2>
+    <div class="gal-grid">
+      <div class="gal-item-wrap gal-main"><div class="gal-caption" data-t="gal.c1">Machu Picchu Â· Cusco</div></div>
+      <div class="gal-item-wrap gal-a"><div class="gal-caption" data-t="gal.c2">Valle Sagrado</div></div>
+      <div class="gal-item-wrap gal-b"><div class="gal-caption" data-t="gal.c3">Lago Titicaca Â· Puno</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="contacto">
+  <div class="container">
+    <div class="contacto-inner">
+      <div class="contacto-info">
+        <span class="eyebrow" data-t="cont.eyebrow">ContÃ¡ctanos</span>
+        <h2 data-t="cont.h2">Planifica tu prÃ³ximo viaje</h2>
+        <p class="intro-text" data-t="cont.intro">CuÃ©ntanos quÃ© imaginas. Nuestro equipo te escribe en menos de 24 horas con una propuesta a tu medida.</p>
+        <div class="info-datos">
+          <div class="info-dato"><span class="label" data-t="cont.addr_l">DirecciÃ³n</span><p>Av. El Sol 123, Cusco, PerÃº</p></div>
+          <div class="info-dato"><span class="label" data-t="cont.phone_l">TelÃ©fono</span><p>+51 984 123 456</p></div>
+          <div class="info-dato"><span class="label" data-t="cont.email_l">Correo</span><p>hola@almaperuexperience.com</p></div>
+          <div class="info-dato"><span class="label" data-t="cont.hours_l">Horario</span><p data-t="cont.hours_v">Lunes a sÃ¡bado, 9:00 am â€“ 7:00 pm (PET)</p></div>
+        </div>
+      </div>
+      <div class="form-wrap">
+        <div class="fg-row">
+          <div class="fg"><label data-t="f.fname">Nombre</label><input type="text" data-placeholder-t="f.fname_ph"></div>
+          <div class="fg"><label data-t="f.lname">Apellido</label><input type="text" data-placeholder-t="f.lname_ph"></div>
+        </div>
+        <div class="fg-row">
+          <div class="fg"><label data-t="f.email">Correo</label><input type="email" placeholder="tu@correo.com"></div>
+          <div class="fg"><label data-t="f.phone">TelÃ©fono</label><input type="tel" placeholder="+51..."></div>
+        </div>
+        <div class="fg">
+          <label data-t="f.dest">Destino de interÃ©s</label>
+          <select>
+            <option data-t="f.dest_ph">Selecciona un destino</option>
+            <option>Machu Picchu</option>
+            <option>AmazonÃ­a / Madre de Dios</option>
+            <option>Lago Titicaca</option>
+            <option>CaÃ±Ã³n del Colca</option>
+            <option>Valle Sagrado</option>
+            <option data-t="f.custom">Itinerario personalizado</option>
+          </select>
+        </div>
+        <div class="fg"><label data-t="f.msg">Mensaje</label><textarea data-placeholder-t="f.msg_ph"></textarea></div>
+        <button class="btn-submit" data-t="f.submit">Enviar consulta</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">Alma PerÃº Experience</div>
+    <p data-t="footer.copy">Â© 2025 Alma PerÃº Experience â€” Todos los derechos reservados</p>
+    <ul class="footer-links">
+      <li><a href="#destinos" data-t="nav.dest">Destinos</a></li>
+      <li><a href="#paquetes" data-t="nav.exp">Experiencias</a></li>
+      <li><a href="#compromisos" data-t="nav.comp">Compromisos</a></li>
+      <li><a href="#contacto" data-t="nav.contact">ContÃ¡ctanos</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
